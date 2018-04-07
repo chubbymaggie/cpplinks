@@ -2,7 +2,7 @@
 
 Note: see also [Assembly (x86)](assembly.x86.md)
 
-## Books
+# Books
 
 1. From NAND to Tetris Building a Modern Computer From First Principles 
 http://www.nand2tetris.org/
@@ -49,6 +49,9 @@ http://www.morganclaypool.com/toc/cac/11/1
   - http://www.jilp.org/dpc/
 * The 2nd Data Prefetching Championship (DPC-2)
   - http://comparch-conf.gatech.edu/dpc2/
+* The 2nd Cache Replacement Championship (CRC-2)
+  - http://crc2.ece.tamu.edu/
+  - https://github.com/ChampSim/ChampSim
 
 ## Journal of Instruction-Level Parallelism (JILP) Workshop on Computer Architecture Competitions (JWAC)
 
@@ -62,8 +65,10 @@ http://www.morganclaypool.com/toc/cac/11/1
   - http://www.jilp.org/cbp2014/
 * 5th JILP Workshop on Computer Architecture Competitions (JWAC-5): Championship Branch Prediction (CBP-5)
   - http://www.jilp.org/cbp2016/
+* 6th JILP Workshop on Computer Architecture Competitions (JWAC-6): Championship Value Prediction (CVP-1)
+  - https://www.microarch.org/cvp1/
 
-## Conferences
+# Conferences
 
 * ASPLOS: International Conference on Architectural Support for Programming Languages and Operating Systems - http://dblp.uni-trier.de/db/conf/asplos/
 * Hot Chips: A Symposium on High Performance Chips - http://www.hotchips.org/archives/
@@ -73,7 +78,7 @@ http://www.morganclaypool.com/toc/cac/11/1
 * MICRO: International Symposium on Microarchitecture - http://www.microarch.org/ - http://dblp.uni-trier.de/db/conf/micro/
 * PACT: International Conference on Parallel Architecture and Compilation - http://pactconf.org/ - http://dblp.uni-trier.de/db/conf/IEEEpact/
 
-## Courses
+# Courses
 
 * Great Ideas in Computer Architecture (Machine Structures) | Spring 2015, UC Berkeley, CS61C  
   http://inst.eecs.berkeley.edu/~cs61c/sp15/
@@ -120,7 +125,7 @@ http://www.morganclaypool.com/toc/cac/11/1
 * High Performance Computer Architecture | Udacity by Georgia Institute of Technology
   - https://www.udacity.com/course/high-performance-computer-architecture--ud007
 
-## Emulation & Simulation
+# Emulation & Simulation
 
 * gem5 - http://gem5.org/
   + Learning gem5: http://learning.gem5.org/
@@ -134,8 +139,12 @@ http://www.morganclaypool.com/toc/cac/11/1
   + a cycle-level, heterogeneous architecture simulator for x86 and NVIDIA PTX instructions
   + http://comparch.gatech.edu/hparch/macsim.html
   + https://github.com/gthparch/macsim
-* MARSSx86 - http://marss86.org/
-* Multi2Sim - http://www.multi2sim.org/ - https://github.com/Multi2Sim/multi2sim
+* MARSSx86
+  + http://marss86.org/
+  + https://github.com/avadhpatel/marss
+* Multi2Sim
+  + http://www.multi2sim.org/
+  + https://github.com/Multi2Sim/multi2sim
 * Sniper - http://snipersim.org/
 * Structural Simulation Toolkit (SST) - http://sst-simulator.org/
   + https://github.com/sstsimulator
@@ -145,7 +154,7 @@ http://www.morganclaypool.com/toc/cac/11/1
 * XIOSim - A detailed michroarchitectural x86 simulator - https://github.com/s-kanev/XIOSim
 * ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
 
-## Journals & Publications
+# Journals & Publications
 
 * ACM SIGARCH - https://www.sigarch.org/
   + Computer Architecture News: http://dl.acm.org/citation.cfm?id=J89

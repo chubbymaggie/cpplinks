@@ -1,6 +1,6 @@
 # [C++ links](README.md): compilers
 
-Note: see also [Assembly (x86)](assembly.x86.md)
+See also: [assembly (x86)](assembly.x86.md), [compilers correctness](compilers.correctness.md)
 
 # Background & Resources
 
@@ -67,6 +67,16 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - https://github.com/decomp/decomp
   - Design documents: https://github.com/decomp/doc
 
+# Detection
+
+* Pre-defined Compiler Macros - https://sourceforge.net/p/predef/wiki/
+	+ Architectures - https://sourceforge.net/p/predef/wiki/Architectures/
+	+ Compilers - https://sourceforge.net/p/predef/wiki/Compilers/
+	+ Endianness - https://sourceforge.net/p/predef/wiki/Endianness/
+	+ Language Standards - https://sourceforge.net/p/predef/wiki/Standards/
+	+ Operating Systems - https://sourceforge.net/p/predef/wiki/OperatingSystems/
+	+ Standard Libraries - https://sourceforge.net/p/predef/wiki/Libraries/
+
 # Documentation
 
 * Clang documentation - http://clang.llvm.org/docs/
@@ -83,6 +93,7 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Implementations
 
+* List of Online C++ Compilers - https://arnemertz.github.io/online-compilers/
 * LLVM - http://llvm.org/
   - LLVM Developers' Meeting - http://llvm.org/devmtg/
   - http://blog.llvm.org/
@@ -150,6 +161,14 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Talks
 
+## 2018
+
+* Introduction to LLVM: Building simple program analysis tools and instrumentation
+  - FOSDEM 2018 - Mike Shah
+  - https://fosdem.org/2018/schedule/event/introduction/
+  - https://www.youtube.com/watch?v=VKIv_Bkp4pk
+  - slides & code: http://www.mshah.io/fosdem18.html
+
 ## 2017
 
 * Getting started with LLVM: the TL;DR version - Diana Picus
@@ -197,5 +216,16 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Warnings
 
+* C/C++/Objective-C compiler warning flags collection and parsers
+  - https://github.com/Barro/compiler-warnings#ccobjective-c-compiler-warning-flags-collection-and-parsers
+* Compiler Warnings - Ian Lance Taylor - https://www.airs.com/blog/archives/159
 * leathers - Warning suppression library (C++) - https://github.com/ruslo/leathers
   - Warnings list: https://github.com/ruslo/leathers/wiki/List
+* ListCppWarningOptions: A simple Perl script that prints GCC warning options you can apply to C++ code
+  - https://github.com/nkakuev/list-cpp-warning-options
+* Use The Tools Available - Compilers
+  - https://github.com/lefticus/cppbestpractices/blob/master/02-Use_the_Tools_Available.md#compilers
+* Useful GCC warning options not enabled by -Wall -Wextra
+  - https://kristerw.blogspot.com/2017/09/useful-gcc-warning-options-not-enabled.html
+* Warning Flags - http://www.iso-9899.info/wiki/WarningFlags
+* Warning Options - https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
